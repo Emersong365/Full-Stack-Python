@@ -22,13 +22,3 @@ switch (tipoDesconto) {
 let salarioLiquido = pagamento - desconto;
 console.log("Salário com desconto aplicado: R$" + salarioLiquido.toFixed(2));
 
-
-function verificarIdade(idade) {
-  if (idade <= 19) {
-    console.log("É maior de idade");
-  } else {
-    console.log("É menor de idade");
-  }
-}
-
-verificarIdade(88);  // Teste
