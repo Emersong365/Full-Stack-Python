@@ -21,4 +21,3 @@ switch (tipoDesconto) {
 
 let salarioLiquido = pagamento - desconto;
 console.log("Salário com desconto aplicado: R$" + salarioLiquido.toFixed(2));
-
