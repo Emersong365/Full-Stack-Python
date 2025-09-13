@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia PowerFit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1558611848-73f7eb4001e3');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+    }
+
+    .content {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+    }
+
+    .button {
+      background-color: #ffcc00;
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #e6b800;
+    }
+
+    .video, .mapa {
+      margin-top: 40px;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    section {
+      margin-top: 60px;
+    }
+
+    h2 {
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Academia PowerFit</h1>
+    <p>Transforme seu corpo. Supere seus limites.</p>
+  </header>
+<nav>
+  <!-- Links internos continuam na mesma página -->
+  <a href="#localizacao">Localização</a>
+  <a href="#planos">Planos</a>
+  <a href="#horarios">Horários</a>
+  <a href="#contato">Contato</a>
+
+  <!-- Links externos ou páginas separadas abrem em nova guia -->
+  <a href="cadastro.html" target="_blank">Cadastro</a>
+</nav>
+  <div class="hero">
+    <h1>Bem-vindo à PowerFit</h1>
+  </div>
+
+  <div class="content">
+
+    <section id="sobre">
+      <h2>Sobre nós</h2>
+      <p>Na nossa academia, transformamos vidas! Oferecemos treinos funcionais, musculação e acompanhamento profissional personalizado para que você alcance seus objetivos com segurança e motivação.</p>
+      <button class="button" onclick="window.location.href='#contato'">Agende uma visita</button>
+    </section>
+
+    <section class="video" id="video">
+      <h2>Conheça nossa estrutura</h2>
+      <video width="100%" height="400" controls>
+        <source src="C:\Users\guilh\Desktop\Pasta de teste\14246032_3840_2160_30fps.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+    </section>
+
+    <section class="mapa" id="localizacao">
+      <h2>Onde estamos</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.635719974417!2d-43.23762122393269!3d-22.926803338588115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e03bce17535%3A0xc1f602924608a467!2sTijuca%20T%C3%AAnis%20Clube!5e0!3m2!1spt-BR!2sbr!4v1757420113535!5m2!1spt-BR!2sbr" 
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <section id="planos">
+      <h2>Nossos Planos</h2>
+      <ul>
+        <li><strong>Plano Básico:</strong> R$ 99/mês - Acesso livre à musculação.</li>
+        <li><strong>Plano Premium:</strong> R$ 149/mês - Inclui aulas coletivas.</li>
+        <li><strong>Plano VIP:</strong> R$ 199/mês - Personal trainer + avaliação física mensal.</li>
+      </ul>
+    </section>
+
+    <section id="horarios">
+      <h2>Horários de Funcionamento</h2>
+      <p>Segunda a Sexta: 06h às 22h</p>
+      <p>Sábado: 08h às 16h</p>
+      <p>Domingo e Feriados: Fechado</p>
+    </section>
+
+    <section id="contato">
+      <h2>Entre em contato</h2>
+      <p>Email: contato@powerfit.com.br</p>
+      <p>Telefone: (21) 97282-9999</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Academia PowerFit - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
